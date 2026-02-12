@@ -12,7 +12,7 @@ pipeline {
             steps {
                 git branch: 'main', 
                     credentialsId: 'github-bt4301', 
-                    url: 'https://github.com/tanwk/src.git'
+                    url: 'https://github.com/yuenning/testing_bt4301.git'
             }
         }
 
@@ -82,4 +82,5 @@ pipeline {
             }
         }
     }
+
 }
